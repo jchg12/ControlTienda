@@ -18,3 +18,24 @@ D:\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.csproj.Core
 D:\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.csproj.CopyComplete
 D:\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.exe
 D:\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.pdb
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\ControlTienda.exe.config
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\ControlTienda.exe
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\ControlTienda.pdb
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\EntityFramework.dll
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\EntityFramework.xml
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.csprojAssemblyReference.cache
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\MainWindow.g.cs
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\App.g.cs
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda_MarkupCompile.cache
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda_MarkupCompile.lref
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\MainWindow.baml
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.g.resources
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.Properties.Resources.resources
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.csproj.GenerateResource.cache
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.csproj.CopyComplete
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.exe
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.pdb
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.Migrations.InitialDB.resources
