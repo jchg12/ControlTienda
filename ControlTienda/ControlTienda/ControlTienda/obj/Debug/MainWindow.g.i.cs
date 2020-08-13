@@ -10,6 +10,9 @@
 //------------------------------------------------------------------------------
 
 using ControlTienda;
+using MaterialDesignThemes.Wpf;
+using MaterialDesignThemes.Wpf.Converters;
+using MaterialDesignThemes.Wpf.Transitions;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -41,25 +44,9 @@ namespace ControlTienda {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 10 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox tbUserName;
-        
-        #line default
-        #line hidden
-        
-        
         #line 11 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox tbPassword;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 12 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btnAceptar;
+        internal System.Windows.Controls.TextBox TbUserName;
         
         #line default
         #line hidden
@@ -67,7 +54,23 @@ namespace ControlTienda {
         
         #line 13 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btnCancelar;
+        internal System.Windows.Controls.PasswordBox TbPassword;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 15 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnAceptar;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 16 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button BtnCancelar;
         
         #line default
         #line hidden
@@ -103,22 +106,28 @@ namespace ControlTienda {
             switch (connectionId)
             {
             case 1:
-            this.tbUserName = ((System.Windows.Controls.TextBox)(target));
+            this.TbUserName = ((System.Windows.Controls.TextBox)(target));
             return;
             case 2:
-            this.tbPassword = ((System.Windows.Controls.TextBox)(target));
+            this.TbPassword = ((System.Windows.Controls.PasswordBox)(target));
             return;
             case 3:
             this.btnAceptar = ((System.Windows.Controls.Button)(target));
             
-            #line 12 "..\..\MainWindow.xaml"
+            #line 15 "..\..\MainWindow.xaml"
             this.btnAceptar.Click += new System.Windows.RoutedEventHandler(this.btnAceptar_Click);
             
             #line default
             #line hidden
             return;
             case 4:
-            this.btnCancelar = ((System.Windows.Controls.Button)(target));
+            this.BtnCancelar = ((System.Windows.Controls.Button)(target));
+            
+            #line 16 "..\..\MainWindow.xaml"
+            this.BtnCancelar.Click += new System.Windows.RoutedEventHandler(this.BtnCancelar_Click);
+            
+            #line default
+            #line hidden
             return;
             }
             this._contentLoaded = true;

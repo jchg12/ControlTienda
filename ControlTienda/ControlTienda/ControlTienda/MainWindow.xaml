@@ -4,12 +4,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ControlTienda"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="Login" Height="350" Width="300">
-    <StackPanel IsEnabled="True" Visibility="Visible" >
-        <TextBox x:Name="tbUserName" Margin=" 20,40,20,40" Height=" 40"/>
-        <TextBox x:Name="tbPassword" Margin=" 20,0,20,40" Height=" 40" />
-        <Button x:Name="btnAceptar" Content=" Aceptar" Margin="15,20,15,20 " Click="btnAceptar_Click"/>
-        <Button x:Name="btnCancelar" Content=" Cancelar" Margin=" 15,0,15,20"/>
+        Title="Login" Height="350" Width="300" Background="GhostWhite">
+    <StackPanel>
+        <TextBox x:Name="TbUserName" Margin="20,65,20,10" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" materialDesign:HintAssist.Hint="User Name" 
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" FontWeight="Bold" FontSize="10"/>
+        <PasswordBox x:Name="TbPassword" Margin="20,35,20,10" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" materialDesign:HintAssist.Hint="Password" 
+                     Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" VerticalAlignment="Center" FontWeight="Bold" FontSize="15"/>
+        <Button x:Name="btnAceptar" Content="Aceptar" FontSize="10" Margin="50,25,55,10" materialDesign:ButtonAssist.CornerRadius ="10" Click="btnAceptar_Click"/>
+        <Button x:Name="BtnCancelar" Content="Cancelar" FontSize="10" Margin="50,10,55,10" materialDesign:ButtonAssist.CornerRadius="10" Click="BtnCancelar_Click"/>
     </StackPanel>
+
 </Window>
