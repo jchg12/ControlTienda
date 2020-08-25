@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:ControlTienda"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="Login" Height="350" Width="300" Background="GhostWhite">
+        Title="Login" Height="350" Width="300">
     <StackPanel>
-        <TextBox x:Name="TbUserName" Margin="20,65,20,10" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" materialDesign:HintAssist.Hint="User Name" 
+        <TextBox x:Name="TbUserName" Margin="20,65,20,10" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" materialDesign:HintAssist.Hint="User Nick" 
                  Style="{StaticResource MaterialDesignFloatingHintTextBox}" VerticalAlignment="Center" FontWeight="Bold" FontSize="10"/>
         <PasswordBox x:Name="TbPassword" Margin="20,35,20,10" VerticalContentAlignment="Top" HorizontalContentAlignment="Center" materialDesign:HintAssist.Hint="Password" 
                      Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" VerticalAlignment="Center" FontWeight="Bold" FontSize="15"/>

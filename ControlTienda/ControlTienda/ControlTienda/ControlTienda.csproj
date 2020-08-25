@@ -71,10 +71,34 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
+    <Compile Include="Data\Entities\ICashRepository.cs" />
+    <Compile Include="Data\Entities\ICategoryRepository.cs" />
+    <Compile Include="Data\Entities\IDetailPurchase.cs" />
+    <Compile Include="Data\Entities\IDetailSaleRepository.cs" />
+    <Compile Include="Data\Entities\IGenericRepository.cs" />
+    <Compile Include="Data\Entities\ILoggRepository.cs" />
+    <Compile Include="Data\Entities\IProductRepository.cs" />
+    <Compile Include="Data\Entities\IPurchaseRepository.cs" />
+    <Compile Include="Data\Entities\IRefundRepository.cs" />
+    <Compile Include="Data\Entities\IRolRepository.cs" />
+    <Compile Include="Data\Entities\ISaleRepository.cs" />
+    <Compile Include="Data\Entities\IUserRepository.cs" />
+    <Compile Include="FrontEnd\Rol.xaml.cs">
+      <DependentUpon>Rol.xaml</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="FrontEnd\Rol.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrontEnd\User.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FrontEnd\VentanaPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ventana de Logueo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -111,14 +135,16 @@
     <Compile Include="Data\Entities\User.cs" />
     <Compile Include="Data\Entities\UserRepository.cs" />
     <Compile Include="Encrypt\Encrypting.cs" />
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="FrontEnd\User.xaml.cs">
+      <DependentUpon>User.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\VentanaPrincipal.xaml.cs">
+      <DependentUpon>VentanaPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventana de Logueo.xaml.cs">
+      <DependentUpon>Ventana de Logueo.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Window1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Migrations\202008130610408_InitialDB.cs" />

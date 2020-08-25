@@ -39,3 +39,8 @@ D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\Control
 D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.exe
 D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.pdb
 D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\ControlTienda.Migrations.InitialDB.resources
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\Window1.g.cs
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\FrontEnd\User.g.cs
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\FrontEnd\Rol.g.cs
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\FrontEnd\VentanaPrincipal.g.cs
+D:\Nueva carpeta (2)\ControlTienda\ControlTienda\ControlTienda\obj\Debug\Ventana de Logueo.g.cs
