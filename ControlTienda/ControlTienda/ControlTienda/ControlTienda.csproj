@@ -182,6 +182,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Imagenes\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\c512e1cba1b6867fca63d6889b69fde3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
